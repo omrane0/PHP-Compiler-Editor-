@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$pets=array("a"=>"Cat","B"=>"Dog","c"=>"Horse","b"=>"Bird");
+print_r(array_change_key_case($pets,CASE_UPPER));
+?>
+
+</body>
+</html>
+
+
+
+
+
+Array ( [A] => Cat [B] => Bird [C] => Horse )
